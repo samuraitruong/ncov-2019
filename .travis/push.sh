@@ -10,7 +10,7 @@ commit_website_files() {
   git status
   git add --all
   echo "------------------------------ run gt commit -----------------"
-  git commit -a --message "Travis build: $TRAVIS_BUILD_NUMBER [no CI]"
+  git commit -a --message "Travis build: $TRAVIS_BUILD_NUMBER [skip ci]"
   echo "---------------------------------------------------------"
   git status
   
