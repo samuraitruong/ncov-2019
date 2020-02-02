@@ -19,6 +19,7 @@ commit_website_files() {
 push_changes() {
   echo "---------------------GIT PUSH----------------------------------------------"
   git remote add tv https://${GH_TOKEN}@github.com/samuraitruong/ncov-2019.git>/dev/null 2>&1
+  git log -3
   git push --set-upstream tv master
   echo "----------------------------- VERIFY ---------------------------------------"
   git status
