@@ -38,6 +38,7 @@ function readSheet($, sheet) {
     });
     list.splice(0, 1)
     writeFile(list, sheet.name);
+    writeFile(list, sheet.id);
     return list;
 }
 async function main() {
