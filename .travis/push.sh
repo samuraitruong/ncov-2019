@@ -9,6 +9,8 @@ commit_website_files() {
   git status
   git add --all
   git commit -a --message "Travis build: $TRAVIS_BUILD_NUMBER [no CI]"
+
+  git status
   
 }
 
