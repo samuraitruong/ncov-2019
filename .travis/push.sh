@@ -12,7 +12,7 @@ commit_website_files() {\
 }
 
 push_changes() {
-  git remote add tv https://${GH_TOKEN}@github.com/MVSE-outreach/resources.git > /dev/null 2>&1
+  git remote add tv https://${GH_TOKEN}@github.com/samuaritruong/ncov-2019.git > /dev/null 2>&1
   git push --quiet --set-upstream tv master
 }
 
