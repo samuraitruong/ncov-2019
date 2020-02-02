@@ -5,7 +5,8 @@ setup_git() {
   git config --global user.name "Travis CI"
 }
 
-commit_website_files() {
+commit_website_files() {\
+  git status
   git add .
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER [no CI]"
 }
