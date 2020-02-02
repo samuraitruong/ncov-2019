@@ -13,6 +13,7 @@ Official data: [https://docs.google.com/spreadsheets/d/1yZv9w9zRKwrGTaR-YzmAqMef
 - [{{name}}](https://samuraitruong.github.io/ncov-2019/data/{{name}}.json)
 {{/each}}
 
+** if any sheet data missig, clear your browse cache or go to find them [here](https://github.com/samuraitruong/ncov-2019/tree/master/data)**
 ## Notice
 - This data is 1 to 1 transform from speadsheet, no modification
 - Data maybe out of sync for 10 mins as sync job run every 10 mins
