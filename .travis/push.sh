@@ -7,8 +7,8 @@ setup_git() {
 
 commit_website_files() {\
   git status
-  git add .
-  git commit --message "Travis build: $TRAVIS_BUILD_NUMBER [no CI]"
+  git add --all
+  git commit -a --message "Travis build: $TRAVIS_BUILD_NUMBER [no CI]"
 }
 
 push_changes() {
