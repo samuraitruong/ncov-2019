@@ -3,6 +3,7 @@ const sheetURL = "https://docs.google.com/spreadsheets/d/1yZv9w9zRKwrGTaR-YzmAqM
 const cheerio = require("cheerio");
 const fs = require("fs")
 const path = require("path")
+const handlebars = require("handlebars")
 
 function getSheets($) {
     const sheets = $("#sheet-menu li")
@@ -41,6 +42,12 @@ function readSheet($, sheet) {
     writeFile(list, sheet.id);
     return list;
 }
+function updateIndex(data) {
+    const sourceIndex = fs.readFileSync("README.md", "utf8");
+    const template = handlebars.compile(sourceIndex);
+    const html = template({ data })
+    fs.writeFileSync("index.md", html);
+}
 async function main() {
     const res = await axios.get(sheetURL);
     const $ = cheerio.load(res.data);
@@ -50,6 +57,8 @@ async function main() {
         dict[sheet.name] = readSheet($, sheet);
     });
     writeFile(dict, "data_dictionary");
+    writeFile(dict[sheets[0].name], "latest")
+    updateIndex(sheets);
 }
 
 main();
