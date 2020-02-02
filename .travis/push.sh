@@ -6,6 +6,7 @@ setup_git() {
 }
 
 commit_website_files() {
+  git checkout -b staging
   git status
   git add --all
   git commit -a --message "Travis build: $TRAVIS_BUILD_NUMBER [no CI]"
@@ -18,7 +19,7 @@ push_changes() {
   echo "---------------------GIT PUSH----------------------------------------------"
   git remote add tv https://${GH_TOKEN}@github.com/samuraitruong/ncov-2019.git>/dev/null 2>&1
   git push --set-upstream tv master
-  echo "----------------------------- VERIY ---------------------------------------"
+  echo "----------------------------- VERIFY ---------------------------------------"
   git status
 }
 
