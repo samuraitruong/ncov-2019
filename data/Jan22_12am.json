@@ -1,0 +1,218 @@
+[
+    {
+        "state_provine": "Shanghai",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "9",
+        "deaths": "10",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Yunnan",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "1",
+        "deaths": "",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Beijing",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "10",
+        "deaths": "",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Taiwan",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "1",
+        "deaths": "",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Jilin",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "",
+        "deaths": "1",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Sichuan",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "2",
+        "deaths": "1",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Tianjin",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "2",
+        "deaths": "",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Ningxia",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "",
+        "deaths": "1",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Anhui",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "",
+        "deaths": "3",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Shandong",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "1",
+        "deaths": "",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Guangdong",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "17",
+        "deaths": "4",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Guangxi",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "",
+        "deaths": "1",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Jiangxi",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "2",
+        "deaths": "",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Henan",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "1",
+        "deaths": "",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Zhejiang",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "5",
+        "deaths": "16",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Hainan",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "",
+        "deaths": "1",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Hubei",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "270",
+        "deaths": "11",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Hunan",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "1",
+        "deaths": "",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Guizhou",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "",
+        "deaths": "1",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Liaoning",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "",
+        "deaths": "1",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Chongqing",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "5",
+        "deaths": "",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Hong Kong",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "",
+        "deaths": "117",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Heilongjiang",
+        "country_region": "China",
+        "last_update": "1/21/2020",
+        "confirmed": "",
+        "deaths": "1",
+        "recovered": ""
+    },
+    {
+        "state_provine": "",
+        "country_region": "Japan",
+        "last_update": "1/21/2020",
+        "confirmed": "1",
+        "deaths": "",
+        "recovered": ""
+    },
+    {
+        "state_provine": "",
+        "country_region": "Thailand",
+        "last_update": "1/21/2020",
+        "confirmed": "2",
+        "deaths": "",
+        "recovered": ""
+    },
+    {
+        "state_provine": "",
+        "country_region": "South Korea",
+        "last_update": "1/21/2020",
+        "confirmed": "1",
+        "deaths": "",
+        "recovered": ""
+    },
+    {
+        "state_provine": "Washington",
+        "country_region": "United States",
+        "last_update": "1/21/2020",
+        "confirmed": "1",
+        "deaths": "",
+        "recovered": ""
+    }
+]
