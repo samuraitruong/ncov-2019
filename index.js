@@ -49,7 +49,7 @@ function toNumber(str) {
 function updateIndex(data) {
     const sourceIndex = fs.readFileSync("README.md", "utf8");
     const template = handlebars.compile(sourceIndex);
-    const html = template({ data })
+    const html = template({ data, date: (new Date()).toISOString() })
     fs.writeFileSync("index.md", html);
 }
 async function main() {

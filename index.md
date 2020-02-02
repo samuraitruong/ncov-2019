@@ -1,14 +1,15 @@
 # ncov-2019
 A json format of official publish data related to Ncov - 2019 virus in China
 
-Official data: [https://docs.google.com/spreadsheets/d/1yZv9w9zRKwrGTaR-YzmAqMefw4wMlaXocejdxZaTs6w/htmlview?usp=sharing]
+Official data: [https://docs.google.com/spreadsheets/d/1yZv9w9zRKwrGTaR-YzmAqMefw4wMlaXocejdxZaTs6w/htmlview?usp=sharing]https://docs.google.com/spreadsheets/d/1yZv9w9zRKwrGTaR-YzmAqMefw4wMlaXocejdxZaTs6w/htmlview?usp=sharing)
 
 
 
-## Data list
+## Data list - last update 2020-02-02T04:44:19.379Z
 - list all sheet [data/sheets.json](https://samuraitruong.github.io/ncov-2019/data/sheets.json)
 - all sheet data in dictionary format [/data_dictionary.json](https://samuraitruong.github.io/ncov-2019/data/data_dictionary.json)
 - Lasted sheet [/data/latest.json](https://samuraitruong.github.io/ncov-2019/data/latest.json)
+- [Feb01_11pm](https://samuraitruong.github.io/ncov-2019/data/Feb01_11pm.json)
 - [Feb01_6pm](https://samuraitruong.github.io/ncov-2019/data/Feb01_6pm.json)
 - [Feb01_10am](https://samuraitruong.github.io/ncov-2019/data/Feb01_10am.json)
 - [Jan31_7pm](https://samuraitruong.github.io/ncov-2019/data/Jan31_7pm.json)
@@ -35,6 +36,7 @@ Official data: [https://docs.google.com/spreadsheets/d/1yZv9w9zRKwrGTaR-YzmAqMef
 - [Jan22_12pm](https://samuraitruong.github.io/ncov-2019/data/Jan22_12pm.json)
 - [Jan22_12am](https://samuraitruong.github.io/ncov-2019/data/Jan22_12am.json)
 
+** if any sheet data missig, clear your browse cache or go to find them [here](https://github.com/samuraitruong/ncov-2019/tree/master/data)**
 ## Notice
 - This data is 1 to 1 transform from speadsheet, no modification
 - Data maybe out of sync for 10 mins as sync job run every 10 mins
