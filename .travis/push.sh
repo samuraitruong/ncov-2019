@@ -21,7 +21,9 @@ push_changes() {
   git remote add tv https://${GH_TOKEN}@github.com/samuraitruong/ncov-2019.git>/dev/null 2>&1
   git log -3
   git remote -v
-  git push tv staging
+  git checkout master
+  git merge staging
+  git push tv master
   echo "----------------------------- VERIFY ---------------------------------------"
   git status
 }
