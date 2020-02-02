@@ -32,15 +32,19 @@ function readSheet($, sheet) {
             "state_provine": $(td[0]).text(),
             "country_region": $(td[1]).text(),
             "last_update": $(td[2]).text(),
-            "confirmed": $(td[3]).text(),
-            "deaths": $(td[4]).text(),
-            "recovered": $(td[5]).text()
+            "confirmed": toNumber($(td[3]).text()),
+            "deaths": toNumber($(td[4]).text()),
+            "recovered": toNumber($(td[5]).text())
         }
     });
     list.splice(0, 1)
     writeFile(list, sheet.name);
     writeFile(list, sheet.id);
     return list;
+}
+function toNumber(str) {
+    if (!str) return 0;
+    return parseInt(str, 10)
 }
 function updateIndex(data) {
     const sourceIndex = fs.readFileSync("README.md", "utf8");
