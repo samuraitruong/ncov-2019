@@ -9,6 +9,7 @@ commit_website_files() {
   git checkout -b staging
   git status
   git add --all
+  echo "------------------------------ run gt commit -----------------"
   git commit -a --message "Travis build: $TRAVIS_BUILD_NUMBER [no CI]"
   echo "---------------------------------------------------------"
   git status
