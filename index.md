@@ -5,10 +5,13 @@ Official data: [https://docs.google.com/spreadsheets/d/1yZv9w9zRKwrGTaR-YzmAqMef
 
 
 
-## Data files - last updated at:  2020-02-02T11:05:49.652Z
+## Data files - last updated at:  2020-02-03T05:13:53.804Z
 - list all sheet [data/sheets.json](https://samuraitruong.github.io/ncov-2019/data/sheets.json)
 - all sheet data in dictionary format [/data_dictionary.json](https://samuraitruong.github.io/ncov-2019/data/data_dictionary.json)
 - Lasted sheet [/data/latest.json](https://samuraitruong.github.io/ncov-2019/data/latest.json)
+- [Notice](https://samuraitruong.github.io/ncov-2019/data/Notice.json)
+- [Feb02_745pm](https://samuraitruong.github.io/ncov-2019/data/Feb02_745pm.json)
+- [Feb02_5am](https://samuraitruong.github.io/ncov-2019/data/Feb02_5am.json)
 - [Feb01_11pm](https://samuraitruong.github.io/ncov-2019/data/Feb01_11pm.json)
 - [Feb01_6pm](https://samuraitruong.github.io/ncov-2019/data/Feb01_6pm.json)
 - [Feb01_10am](https://samuraitruong.github.io/ncov-2019/data/Feb01_10am.json)
