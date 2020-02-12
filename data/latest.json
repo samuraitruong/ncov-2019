@@ -1,6 +1,30 @@
 [
     {
-        "state_provine": "Time series google sheet: https://docs.google.com/spreadsheets/d/1UF2pSkFTURko2OvfHWWlFpDFAr1UxCBA4JLwlSP6KFo/edit?usp=sharing",
+        "state_provine": "We created a GitHub repo: https://github.com/CSSEGISandData/2019-nCoV",
+        "country_region": "",
+        "last_update": "",
+        "confirmed": 0,
+        "deaths": 0,
+        "recovered": 0
+    },
+    {
+        "state_provine": "It has the same info as this Google Sheet.",
+        "country_region": "",
+        "last_update": "",
+        "confirmed": 0,
+        "deaths": 0,
+        "recovered": 0
+    },
+    {
+        "state_provine": "Due to the download limitation, we will soon stop to update this Google Sheet. (soon = no later than Feb 11)",
+        "country_region": "",
+        "last_update": "",
+        "confirmed": 0,
+        "deaths": 0,
+        "recovered": 0
+    },
+    {
+        "state_provine": "Hope you will enjoy the new data storage place. Sorry for any inconvenience.",
         "country_region": "",
         "last_update": "",
         "confirmed": 0,
