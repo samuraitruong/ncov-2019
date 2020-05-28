@@ -5,7 +5,7 @@ Official data: [https://docs.google.com/spreadsheets/d/1yZv9w9zRKwrGTaR-YzmAqMef
 
 
 
-## Data files - last updated at:  2020-05-27T05:34:16.618Z
+## Data files - last updated at:  2020-05-28T05:34:17.043Z
 - list all sheet [data/sheets.json](https://samuraitruong.github.io/ncov-2019/data/sheets.json)
 - all sheet data in dictionary format [/data_dictionary.json](https://samuraitruong.github.io/ncov-2019/data/data_dictionary.json)
 - Lasted sheet [/data/latest.json](https://samuraitruong.github.io/ncov-2019/data/latest.json)
